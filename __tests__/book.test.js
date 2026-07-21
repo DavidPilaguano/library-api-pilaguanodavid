@@ -20,10 +20,10 @@ describe('isValidBookCode', () => {
   });
 
   test('rechaza un codigo invalido', () => {
-    expect(isValidBookCode('PI101')).toBe(true);
+    expect(isValidBookCode('PI101')).toBe(false);
   });
 
   test('rechaza un codigo vacio', () => {
-    expect(isValidBookCode('')).toBe(true);
-  })
+    expect(isValidBookCode('')).toBe(false);
+  });
 });
