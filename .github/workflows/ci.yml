@@ -27,7 +27,6 @@ jobs:
 
       - name: Run tests and coverage
         run: npm test
-
   deploy:
     name: Deploy to Vercel
     runs-on: ubuntu-latest
